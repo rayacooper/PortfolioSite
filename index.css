@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.IntroDiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('ivy-edited.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -15px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.IntroDiv h1 {
+    font-size: 100px;
+    line-height: -20px;
+}
+
+.IntroDiv p {
+    font-size: 30px;
+}
+
+.About img {
+    width: 30vw;
+    border-radius: 4px;
+}
